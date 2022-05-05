@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 with TailwindCSS Minimal Starter
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+Look at the [nuxt 3 tailwind documentation](https://tailwindcss.nuxtjs.org/) to learn more.
 
 ## Setup
 
@@ -10,12 +10,6 @@ Make sure to install the dependencies:
 # yarn
 yarn install
 
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
 
 ## Development Server
 
