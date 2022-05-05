@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^5.0.3",
-    "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
     "@tailwindcss/forms": "^0.5.0",
     "chart.js": "^3.7.1",
     "tailwindcss-rtl": "^0.9.0",

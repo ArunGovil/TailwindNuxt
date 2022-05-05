@@ -6,12 +6,12 @@
       <h2
         class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
       >
-        <span class="block">Welcome to Nuxt tailwind starter </span>
+        <span class="block">Nuxt Tailwind Starter</span>
       </h2>
       <div class="mt-8 flex justify-center">
         <div class="inline-flex rounded-md shadow">
-          <NuxtLink
-            :to="localePath('/about', 'en')"
+          <a
+            href="#"
             class="
               inline-flex
               items-center
@@ -27,12 +27,12 @@
               hover:bg-indigo-700
             "
           >
-            About EN
-          </NuxtLink>
+            Get started
+          </a>
         </div>
         <div class="ml-3 inline-flex">
           <NuxtLink
-            :to="localePath('/about', 'es')"
+            to="/about"
             class="
               inline-flex
               items-center
@@ -48,7 +48,7 @@
               hover:bg-indigo-200
             "
           >
-            About ES
+            About Us
           </NuxtLink>
         </div>
       </div>
