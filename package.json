@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.1"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^5.0.3",
+    "@tailwindcss/forms": "^0.5.0",
+    "chart.js": "^3.7.1",
+    "tailwindcss-rtl": "^0.9.0",
+    "vue-chartjs": "^4.0.6"
+  }
+}
