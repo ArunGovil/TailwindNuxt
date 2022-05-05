@@ -11,7 +11,7 @@
             uppercase
           "
         >
-          About
+            {{ $t('about') }}
         </h2>
         <p
           class="
@@ -23,11 +23,10 @@
             lg:text-6xl
           "
         >
-          Start your project right away
+         {{ $t('welcomeHead') }}
         </p>
         <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-          Start building for free, then add a site plan to go live. Account
-          plans unlock additional features.
+          {{ $t('intro') }}
         </p>
       </div>
     </div>
