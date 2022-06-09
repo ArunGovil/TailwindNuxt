@@ -2,9 +2,13 @@ import { defineNuxtConfig } from "nuxt";
 
 export default defineNuxtConfig({
   buildModules: ["@nuxtjs/tailwindcss"],
+  plugins: ["~/plugins/direction.client.js"],
   modules: ["@nuxtjs/i18n"],
   i18n: {
-    locales: ["en", "es"],
+    locales: [
+      { code: "en", name: "English", dir: "ltr" },
+      { code: "es", name: "Spanish", dir: "rtl" },
+    ],
     defaultLocale: "en",
     vueI18n: {
       fallbackLocale: "en",
@@ -12,7 +16,8 @@ export default defineNuxtConfig({
         en: {
           welcomeHead: " Welcome to Nuxt Tailwind",
           about: "About",
-          intro: "Start building for free, then add a site plan to go live. Account plans unlock additional features.",
+          intro:
+            "Start building for free, then add a site plan to go live. Account plans unlock additional features.",
         },
         es: {
           welcomeHead: "Bienvenidos a Nuxt Tailwind",
